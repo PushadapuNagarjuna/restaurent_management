@@ -1,4 +1,4 @@
-from main import app, db, Menu
+from model import app, db, Menu
 from flask_restful import Api, Resource
 
 api = Api(app)
